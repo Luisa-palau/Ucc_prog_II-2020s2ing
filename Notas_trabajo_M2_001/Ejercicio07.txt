@@ -1,0 +1,50 @@
+package co.edu.campusucc;
+import java.util.Scanner;
+public class Ejercicio07 {
+	public static void main(String[] args) { 
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *  Autor: Luisa Palau         * ");
+		 System.out.println(" *  Date: Noviembre 01 2020    * ");
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *   Ingenieria industrial     * ");
+		 System.out.println(" *     Taller M2 Ejercicios07  * ");
+		 System.out.println(" ******************************* ");
+
+ Scanner in = new Scanner (System.in);
+ int l1=0;
+ int l2=0;
+ int paginas=0;
+ int minutos=0; 
+ 
+ System.out.print("Ingresar las horas");
+ l1= in.nextInt(); 
+ 
+ paginas= 30*2;
+ 
+ System.out.print("En  " + l1);
+ System.out.print("horas se escribe" +paginas);
+ System.out.print("paginas .");
+ 
+ System.out.print("Ingrese las paginas");
+ l2= in.nextInt();
+ 
+ minutos= 30*5;
+ 
+ System.out.print(" Las " + l2);
+ System.out.print(" paginas se escriben en" +minutos);
+ System.out.print(" minutos.");
+ 
+	}
+
+}
+
+
+ ******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios07  * 
+ ******************************* 
+Ingresar las horas 7
+En  7horas se escribe60paginas .Ingrese las paginas

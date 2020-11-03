@@ -1,0 +1,47 @@
+package co.edu.campusucc;
+
+import java.util.Scanner;
+public class Ejercicio05 {
+	public static void main(String[] args) { 
+	    System.out.println(" ******************************* ");
+		System.out.println(" *  Autor: Luisa Palau         * ");
+		System.out.println(" *  Date: Noviembre 01 2020    * ");
+		System.out.println(" ******************************* ");
+		System.out.println(" *   Ingenieria industrial     * ");
+		System.out.println(" *     Taller M2 Ejercicios05  * ");
+		System.out.println(" ******************************* ");
+
+
+	Scanner in = new Scanner (System.in);
+	int l1=0, l3=0,  l2=0 ;
+	
+	
+	
+	System.out.println("Ingrese el precio del producto");
+	l1= in.nextInt();
+	
+	System.out.println("Cuanto dinero entrego el cliente");
+	l2= in.nextInt();
+	
+	l3 = l2-l1;
+	
+	System.out.println("Lo que le debo al cliente es: $" + l3);
+		
+	
+ }
+
+}
+
+
+ ******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios05  * 
+ ******************************* 
+Ingrese el precio del producto
+15000
+Cuanto dinero entrego el cliente
+6000
+Lo que le debo al cliente es: $-9000

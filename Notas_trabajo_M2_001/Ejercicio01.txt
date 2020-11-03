@@ -1,0 +1,62 @@
+package co.edu.campusucc;
+
+import java.util.Scanner;
+
+public class Ejercicio01 {
+	public static void main(String[] args) {
+	    System.out.println(" ******************************* ");
+		System.out.println(" *  Autor: Luisa Palau         * ");
+		System.out.println(" *  Date: Noviembre 01 2020    * ");
+		System.out.println(" ******************************* ");
+		System.out.println(" *   Ingenieria industrial     * ");
+		System.out.println(" *     Taller M2 Ejercicios01  * ");
+		System.out.println(" ******************************* ");
+	
+		Scanner in = new Scanner (System.in);
+		int l1=0, l2=0, dos=0, cubo=0;
+		System.out.println("Determinar Cubos y Cuadrados");
+		
+		System.out.println("[0]Para calcular el cuadrado");
+		System.out.println("[1]Para calcular el cubo");
+		
+		l2= in.nextInt();
+		
+		
+		
+		System.out.println("Ingrese el numero");
+		l1= in.nextInt();
+		dos = l1*l1;
+		cubo = l1*l1*l1;
+		
+		
+		if (l2==0)
+			
+		System.out.println(" el cuadrado es:"+ dos);
+			
+		
+		
+		else
+		
+		
+			System.out.println("el cubo es:"+ cubo);
+		
+	}
+
+}
+
+		
+
+******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios01  * 
+ ******************************* 
+Determinar Cubos y Cuadrados
+[0]Para calcular el cuadrado
+[1]Para calcular el cubo
+1
+Ingrese el numero
+6
+el cubo es:216

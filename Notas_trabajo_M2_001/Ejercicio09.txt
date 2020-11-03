@@ -1,0 +1,48 @@
+package co.edu.campusucc;
+
+import java.util.Scanner;
+
+public class Ejercicio09 {
+	public static void main(String[] args) { 
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *  Autor: Luisa Palau         * ");
+		 System.out.println(" *  Date: Noviembre 01 2020    * ");
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *   Ingenieria industrial     * ");
+		 System.out.println(" *     Taller M2 Ejercicios09  * ");
+		 System.out.println(" ******************************* ");
+
+
+int numero = 0, sumaDig = 0;
+try (Scanner leer = new Scanner(System.in)) { 
+	System.out.println("Ingrese el numero que desee sumar a sus digitos");
+	numero = leer.nextInt();
+}
+int num = numero;
+           while (numero != 0 ) {
+	    sumaDig = sumaDig + (numero % 10);
+	    numero = numero / 10;
+	   
+  }
+  
+  System.out.println("la suma de los digitos de"+num+" es:" +sumaDig); 
+  
+	}
+
+}
+ 
+ 
+
+
+
+
+******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios09  * 
+ ******************************* 
+Ingrese el numero que desee sumar a sus digitos
+9
+la suma de los digitos de9 es:9

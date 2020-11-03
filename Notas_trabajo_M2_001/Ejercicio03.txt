@@ -1,0 +1,48 @@
+ package co.edu.campusucc;
+
+import java.util.Scanner;
+public class Ejercicio03 {
+	public static void main(String[] args) {
+	    System.out.println(" ******************************* ");
+		System.out.println(" *  Autor: Luisa Palau         * ");
+		System.out.println(" *  Date: Noviembre 01 2020    * ");
+		System.out.println(" ******************************* ");
+		System.out.println(" *   Ingenieria industrial     * ");
+		System.out.println(" *     Taller M2 Ejercicios03  * ");
+		System.out.println(" ******************************* ");
+
+		double n1, n2, n3, notaf; 
+		
+		Scanner leer = new Scanner(System.in);
+		System.out.println("ingrese la primera nota");
+		n1 = leer.nextFloat();
+		System.out.println("ingrese la segunda nota");
+		n2 = leer.nextFloat();
+		System.out.println("ingrese la tercera nota");
+		n3 = leer.nextFloat();
+		
+		n1 = n1*0.3;
+		n2 = n2*0.3;
+		n3 = n3*0.4;
+		notaf = n1 + n2 + n3;
+		
+		System.out.println("La nota final es:" +notaf);
+	
+	}
+
+}
+
+ ******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios03  * 
+ ******************************* 
+ingrese la primera nota
+3.2
+ingrese la segunda nota
+3.5
+ingrese la tercera nota
+2.8
+La nota final es:3.1299999952316284

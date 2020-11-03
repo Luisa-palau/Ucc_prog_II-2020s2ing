@@ -1,0 +1,54 @@
+package co.edu.campusucc;
+
+import java.util.Scanner;
+ public class Ejercicio06 {
+	 public static void main(String[] args) { 
+	 System.out.println(" ******************************* ");
+	 System.out.println(" *  Autor: Luisa Palau         * ");
+	 System.out.println(" *  Date: Noviembre 01 2020    * ");
+	 System.out.println(" ******************************* ");
+	 System.out.println(" *   Ingenieria industrial     * ");
+	 System.out.println(" *     Taller M2 Ejercicios06  * ");
+	 System.out.println(" ******************************* ");
+
+	 Scanner in = new Scanner (System.in);
+		int l2=0, l3=0,  salariofinal=0 ;
+		
+		String l1="";
+		
+		System.out.println("Ingrese el nombre del empleado");
+		l1= in.nextLine();
+		
+		System.out.println("ingrese el valor hora");
+		l2= in.nextInt();
+		
+		System.out.println("ingrese horas trabajadas");
+		l3= in.nextInt();
+		
+		
+		salariofinal = l2*l3;
+		
+		System.out.println("El salario final de " + l1);
+		System.out.println("es de: $" + salariofinal);
+
+	}
+
+}
+
+	
+
+ ******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios06  * 
+ ******************************* 
+Ingrese el nombre del empleado
+luisa
+ingrese el valor hora
+3000
+ingrese horas trabajadas
+12
+El salario final de luisa
+es de: $36000

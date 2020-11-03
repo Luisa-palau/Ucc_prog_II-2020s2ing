@@ -1,0 +1,42 @@
+package co.edu.campusucc;
+import java.util.Scanner;
+public class Ejercicio00 {
+	public static void main(String[] args) { 
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *  Autor: Luisa Palau         * ");
+		 System.out.println(" *  Date: Noviembre 01 2020    * ");
+		 System.out.println(" ******************************* ");
+		 System.out.println(" *   Ingenieria industrial     * ");
+		 System.out.println(" *     Taller M2 Ejercicios00  * ");
+		 System.out.println(" ******************************* ");
+
+		 Scanner in = new Scanner (System.in);
+int l1=0;
+int l2=0;
+int l3=0;
+
+System.out.print("¿cuantos metros de longitud tiene la pieza de paño?:");
+	l1=in.nextInt();
+System.out.print("Cuantos metros corta todos los dias?:");
+	l2=in.nextInt();
+	
+	l3=l1/l2;
+	System.out.print("En " + l3 + "dias habra cortado completamente la pieza de paño");
+	
+	
+	
+}
+	}
+	
+	
+
+ ******************************* 
+ *  Autor: Luisa Palau         * 
+ *  Date: Noviembre 01 2020    * 
+ ******************************* 
+ *   Ingenieria industrial     * 
+ *     Taller M2 Ejercicios00  * 
+ ******************************* 
+¿cuantos metros de longitud tiene la pieza de paño?:12
+Cuantos metros corta todos los dias?:2
+En 6dias habra cortado completamente la pieza de paño
